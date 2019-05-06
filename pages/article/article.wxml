@@ -1,3 +1,5 @@
+<import src="./article-template/article-template.wxml" />
+
 <view class='container'>
 
   <swiper
@@ -19,6 +21,15 @@
         <image src="../../images/wow3.jpg"/>
       </swiper-item>
   </swiper>
+  <view class='article-warp'>
+   
+      <block wx:for="{{articles}}" wx:for-index="idx" wx:for-item="article" wx:key='idx'>
+        <view bindtap='articleDetail' data-article-id='articleId'>
+          <template is="articleItem" data="{{...article}}" />
+        </view>
+      </block>
+    
 
+  </view>
 
 </view>

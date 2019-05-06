@@ -1,0 +1,39 @@
+.article-warp{
+  width: 100%;
+  margin-top: 10px;
+}
+.article-item{
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.article-head-avatar{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.article-head-date{
+  font-size: 12px;
+  vertical-align: middle;
+}
+.article-title{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 600
+}
+.article-desc{
+  margin-top: 5px;
+  margin-left: 10px;
+  color:#333;
+}
+.article-footer{
+  margin-top: 10px;
+}
+.article-footer-icon{
+  width: 36rpx;
+  height: 36rpx;
+  margin-left: 10px;
+}
