@@ -1,0 +1,24 @@
+<view class='container'>
+
+  <swiper
+  indicator-dots="true"
+  indicator-color="#ff0"
+  indicator-active-color="#f21"
+  autoplay="true"
+  interval="2000"
+  duration="1000"
+  easing-function="easeOutCubic"
+  >
+      <swiper-item>
+        <image src="../../images/wow4.jpg"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/wow2.jpg"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/wow3.jpg"/>
+      </swiper-item>
+  </swiper>
+
+
+</view>

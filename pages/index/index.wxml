@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="userinfo">
+      <image  class="userinfo-avatar" src="../../images/wow2.jpg" mode="cover"></image>
+      <text class="userinfo-nickname">Tom</text>
+  </view> 
+  <view class="usermotto" catchtap='tapMotto'>
+    <text class="user-motto">开启之旅</text>
+  </view> 
+  
+</view>
