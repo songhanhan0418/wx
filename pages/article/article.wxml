@@ -24,7 +24,7 @@
   <view class='article-warp'>
    
       <block wx:for="{{articles}}" wx:for-index="idx" wx:for-item="article" wx:key='idx'>
-        <view bindtap='articleDetail' data-article-id='articleId'>
+        <view bindtap='articleDetail' data-article-id='{{article.articleId}}'>
           <template is="articleItem" data="{{...article}}" />
         </view>
       </block>

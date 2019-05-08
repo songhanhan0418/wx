@@ -119,9 +119,9 @@ Page({
     
   },
   articleDetail:function(ev){
-    console.log(ev)
+    var articleId = ev.currentTarget.dataset.articleId
     wx.navigateTo({
-      url: './article-detail/article-detail',
+      url: './article-detail/article-detail?articleId='+articleId,
     })
   }
 

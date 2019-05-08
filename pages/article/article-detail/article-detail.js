@@ -1,3 +1,5 @@
+var { articles } = require('../../../data/db.js')
+
 Page({
 
   /**
@@ -12,6 +14,12 @@ Page({
    */
   onLoad: function (options) {
     
+    var articleId = options.articleId
+    var article = articles[articleId]
+    this.setData({...article})
+  },
+  tapCollection:function(){
+    console.log('aa')
   },
 
   /**
